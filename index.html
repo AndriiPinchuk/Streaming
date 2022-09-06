@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+
+    <title>App</title>
+</head>
+<body>
+<style>
+div{background: #999}
+</style>
+
+
+    <script src="app.js"></script>
+<p id="1"> Your Subscriptions:</p>
+<p id="2"> .</p>
+<p id="3"> .</p>
+<p id="4"> .</p>
+<p id="5"> .</p>
+<p id="6"> Use console log</p>
+
+<button id="button_1" onclick="ShowSubscribe()">Show Subs</button>
+			<br>
+			<div>
+				<p> Watch selected Sub</p>
+				<select name="Subs" id="SubTypes">
+					<option value="show1">show1</option>
+					<option value="show2">show2</option>
+					<option value="show3">show3</option>
+					<option value="show4">show4</option>
+					<option value="show5">show5</option>
+					<option value="show6">show6</option>
+				</select>
+				<button id="buttonSub">Add Sub</button>
+
+				<button id="buttonWatch">Watch Sub</button>
+			</div>
+				<br>
+				<div>
+				<p> See Trending by Genre or duration</p>
+				<select name="Subs" id="GenTypes">
+					<option value="Cartoon">Cartoon</option>
+					<option value="Comedy">Comedy</option>
+					<option value="Action">Action</option>
+					<option value="Fantasy">Fantasy</option>
+					<option value="Drama">Drama</option>
+					<option value="Historical">Historical</option>
+				</select>
+				<button id="buttonTrendingGenre">Trending by selected genre</button>
+				<button id="buttonTrending">Trending</button>
+				</div>
+</body>
+</html>
